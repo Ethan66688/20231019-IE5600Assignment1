@@ -1,11 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 22 13:17:46 2023
-
-@author: yuexiang
-"""
-
+#定义PyPivot类
 class PyPivot:
     def __init__(self):
         self.dataset = {}
@@ -14,7 +7,7 @@ class PyPivot:
             'Columns': [],
             'Rows': [],
             'Values': {}
-        }
+        }#初始化一些关键变量
 
 
     def initialise_dataset(self):
